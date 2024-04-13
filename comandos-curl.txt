@@ -1,0 +1,3 @@
+ 
+ #Envia o conteúdo do arquivo "produto.json" para o endpoint /produtos vis POST
+ curl -X POST http://localhost:8080/produtos -H "Content-Type: application/json; Charset=utf-8" -d @produto-pao.json
